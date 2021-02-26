@@ -1,0 +1,76 @@
+.div-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         ''
+                         '';
+}
+
+.navbar{
+    background-color: #7BC31A;
+    grid-area: nav;
+}
+
+.banner{
+    grid-area: banner;
+}
+
+.lunch{
+    background-color: white ;
+    grid-area: lunch;
+}
+
+.vak1{
+    background-color: white;
+    grid-area: brood;
+}
+
+.broodtekst2{
+    grid-area: broodtekst2;
+}
+
+.vak2{
+    background-color: white;
+    grid-area: beleg;
+}
+
+.belegtekst2{
+    grid-area: belegtekst2;
+}
+
+.vak3{
+    background-color: white;
+    grid-area: fruit;
+}
+
+.fruittekst2{
+    grid-area: fruittekst2;
+}
+
+.contact{
+    grid-area: contact;
+}
+
+.contact-2{
+    grid-area: contact-2;
+}
+
+.contact-3{
+    grid-area: contact-3;
+}
+
+.footer{
+    grid-area: footer;
+}
