@@ -13,37 +13,37 @@
 }
 
 .navbar{
-    background-color: #7BC31A;
+    background-color: #051C2B;
     grid-area: navbar;
 }
 
 .pie-chart-eten{
-  background-color: green;
+  background-color: #051C2B;
     grid-area: pie-chart-eten;
 }
 
 .pie-chart-water{
-    background-color: purple;
+    background-color: #051C2B;
     grid-area: pie-chart-water;
 }
 
 .pro-bar-brandstof{
-    background-color: blue;
+    background-color: #051C2B;
     grid-area: pro-bar-brandstof;
 }
 
 .pro-bar-snelheid{
-  background-color: yellow;
+  background-color: #051C2B;
     grid-area: pro-bar-snelheid;
 }
 
 .grafiek-afstand-tijd{
-    background-color: pink;
+    background-color: #051C2B;
     grid-area: grafiek-afstand-tijd;
 }
 
 .map-afstand{
-  background-color: orange;
+  background-color: #051C2B;
   grid-area: map-afstand
 
 }

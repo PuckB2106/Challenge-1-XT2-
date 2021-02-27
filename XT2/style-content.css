@@ -5,5 +5,15 @@ body{
 }
 
 .logo{
-  width: 100px;
+  width: 200px;
+  margin-top: 8px;
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+
+.eten-tekst{
+  color: white;
+  font-family: d-din;
+  margin-left: 127px;
+  margin-top: 20px;
 }
