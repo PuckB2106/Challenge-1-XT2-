@@ -2,10 +2,10 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 'navbar'
-                         'piechart-eten'
-                         'piechart-water'
+                         'pie-chart-eten'
+                         'pie-chart-water'
                          'pro-bar-brandstof'
                          'pro-bar-snelheid'
                          'grafiek-afstand-tijd'
@@ -17,18 +17,18 @@
     grid-area: navbar;
 }
 
-.piechart-eten{
-  background-color: green
-    grid-area: piechart-eten;
+.pie-chart-eten{
+  background-color: green;
+    grid-area: pie-chart-eten;
 }
 
-.piechart-water{
-    background-color: purple ;
-    grid-area: piechart-water;
+.pie-chart-water{
+    background-color: purple;
+    grid-area: pie-chart-water;
 }
 
 .pro-bar-brandstof{
-    background-color: blue ;
+    background-color: blue;
     grid-area: pro-bar-brandstof;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .grafiek-afstand-tijd{
-    background-color: white;
+    background-color: pink;
     grid-area: grafiek-afstand-tijd;
 }
 
