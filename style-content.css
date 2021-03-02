@@ -43,7 +43,7 @@ body{
     color: white;
     font-family: d-din;
     font-size: 18px;
-    margin-left: 39%;
+    margin-left: 35%;
     margin-top: 10%;
     margin-bottom: 5%
 
@@ -61,7 +61,13 @@ body{
 
 .pro-bar-brandstof{
   margin-top: 8%;
-  margin-bottom: 30%;
+  margin-bottom: -1%;
+}
+
+.pro-bar-snelheid{
+  margin-bottom: 10%;
+  }
+
 }
 
 @media only screen and (min-width:376px) and (max-width: 769px){
@@ -96,3 +102,67 @@ body{
 
 
     }
+
+    @media only screen and (min-width:770px) and (max-width: 1279px){
+        .div-container{
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas: 'navbar navbar navbar'
+                                 'pie-chart-eten pie-chart-water pro-bar-brandstof'
+                                 'pro-bar-snelheid grafiek-afstand-tijd grafiek-afstand-tijd'
+                                 'map-afstand map-afstand map-afstand'
+                }
+
+                .pie-chart-water{
+                  margin-top: 10%;
+                  margin-bottom: 10%;
+                }
+
+                .water-tekst{
+                  margin-top: ;
+                }
+
+
+                .brandstof-tekst{
+                  margin-top: -20%
+                }
+
+                .pro-bar-snelheid{
+                  margin-top: 20%;
+                  margin-bottom: -10%
+                }
+
+
+        }
+
+        @media only screen and (min-width:1280px){
+            .div-container{
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                    grid-template-areas: 'navbar navbar navbar navbar'
+                                     'pie-chart-eten pie-chart-water pro-bar-brandstof pro-bar-snelheid'
+                                     'grafiek-afstand-tijd grafiek-afstand-tijd grafiek-afstand-tijd grafiek-afstand-tijd'
+                                     'map-afstand map-afstand map-afstand map-afstand'
+                    }
+
+                    .pie-chart-water{
+                      margin-top: 10%;
+                      margin-bottom: 10%;
+                    }
+
+                    .water-tekst{
+                      margin-top: ;
+                    }
+
+
+                    .brandstof-tekst{
+                      margin-top: -20%
+                    }
+
+                    .pro-bar-snelheid{
+                      margin-top: 20%;
+                      margin-bottom: -10%
+                    }
+
+
+            }
