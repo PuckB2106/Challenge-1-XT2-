@@ -106,16 +106,16 @@ var chart4 = new Chart(myChart4, {
 var myChart5 = document.getElementById('myChart5').getContext('2d');
 var chart5 = new Chart(myChart5, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'pie',
 
     // The data for our dataset
     data: {
-        labels: ['0','5','10','15','20','25','30','35','40','45','50',],
+        labels: ['20','40','10','15','5','7','8',],
         datasets: [{
-            label: 'My First dataset',
-            backgroundColor: '#00538C',
-            borderColor: 'white',
-            data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,]
+            label: [],
+            backgroundColor: ['#f72585','#b5179e','#7209b7','#560bad','#3f37c9','#4895ef','#4cc9f0',],
+            borderColor: ['white',],
+            data: ['20','40','10','15','5','7','8',]
         }]
     },
 

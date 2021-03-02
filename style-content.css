@@ -49,6 +49,16 @@ body{
 
 }
 
+.Atmosfeer-tekst{
+  color: white;
+  font-family: d-din;
+  font-size: 18px;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 5%
+
+
+}
 .percentage{
   color: white;
   font-family: d-din;
@@ -70,7 +80,14 @@ body{
 
 }
 
-@media only screen and (min-width:376px) and (max-width: 768px){
+@media only screen and (min-width:376px ) and (max-width: 768px){
+
+body{
+  background-color: green;
+}
+
+
+
     .div-container{
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -78,11 +95,11 @@ body{
                              'pie-chart-eten pie-chart-water'
                              'pro-bar-brandstof pro-bar-snelheid'
                              'grafiek-afstand-tijd grafiek-afstand-tijd'
-                             'map-afstand map-afstand'
+                             'map-afstand map-afstand';
             }
 
-            .pie-chart-water{
-              margin-top:
+            /* .pie-chart-water{
+              margin-top:;
               margin-bottom:
             }
 
@@ -98,12 +115,12 @@ body{
             .pro-bar-snelheid{
               margin-top:
               margin-bottom:
-            }
+            } */
 
 
     }
 
-    @media only screen and (min-width:769px) and (max-width: 1279px){
+    @media only screen and (min-width:770px) and (max-width: 1279px){
         .div-container{
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -118,9 +135,9 @@ body{
                   margin-bottom: 10%;
                 }
 
-                .water-tekst{
+                /* .water-tekst{
                   margin-top: ;
-                }
+                } */
 
 
                 .brandstof-tekst{
@@ -150,9 +167,9 @@ body{
                       margin-bottom: 10%;
                     }
 
-                    .water-tekst{
+                    /* .water-tekst{
                       margin-top: ;
-                    }
+                    } */
 
 
                     .brandstof-tekst{
