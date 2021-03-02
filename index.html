@@ -1,47 +1,96 @@
-<DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>SpaceX</title>
-            <link rel="stylesheet" type="text/css" href="style-grid.css">
-            <link rel="stylesheet" type="text/css" href="style-content.css">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-        </head>
-        <body>
-            <div class="div-container">
-              <div class="navbar">
-                <img src="SpaceX-Logo.svg.png" class="logo">
-              </div>
-              <div class="pie-chart-eten">
-                <p class="eten-tekst">Etensvoorraad</p>
-                <canvas id="myChart1"></canvas>
-                <p class="percentage">80%</p>
-              </div>
-              <div class="pie-chart-water">
-                <p class="water-tekst">Watervoorraad</p>
-                <canvas id="myChart2"></canvas>
-                <p class="percentage">90%</p>
-              </div>
-              <div class="pro-bar-brandstof">
-                <p class="Brandstof-tekst">Brandstof</p>
-                <canvas id="myChart3"></canvas>
-              </div>
-              <div class="pro-bar-snelheid">
-                <p class="Afstand-tekst">Afstand over tijd</p>
-                  <canvas id="myChart4"></canvas>
-              </div>
-              <div class="grafiek-afstand-tijd">
-                <p class="Atmosfeer-tekst">Atmosfeer</p>
-                <canvas id="myChart5"></canvas>
-              </div>
-              <div class="map-afstand">
-                <canvas id="myChart6"></canvas>
-              </div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SpaceX</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-grid.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-content.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
 
-          </div>
-          <script src="script.js"></script>
-        </body>
-        </html>
+<div class="container">
+    <div class="col">
+        <div class="row">
+            <div class="box full">
+                <img src="images/SpaceX-Logo.svg.png" class="logo" alt="logo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="box half">
+                <p>Etensvoorraad</p>
+                <div class="chart-container">
+                    <canvas id="myChart1"></canvas>
+                </div>
+            </div>
+            <div class="box half">
+                <p>Watervoorraad</p>
+                <div class="chart-container">
+                    <canvas id="myChart2"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box third">
+                <p>Brandstof</p>
+                <div class="chart-container">
+                    <canvas id="myChart3"></canvas>
+                </div>
+            </div>
+            <div class="box third">
+                <p>Afstand over tijd</p>
+                <div class="chart-container">
+                    <canvas id="myChart4"></canvas>
+                </div>
+            </div>
+            <div class="box third">
+                <p>Title</p>
+                <div class="chart-container">
+                    <canvas id="myChart5"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box quarter">
+                <p>Title</p>
+                <div class="chart-container">
+                    <canvas></canvas>
+                </div>
+            </div>
+            <div class="box quarter">
+                <p>Title</p>
+                <div class="chart-container">
+                    <canvas></canvas>
+                </div>
+            </div>
+            <div class="box quarter">
+                <p>Title</p>
+                <div class="chart-container">
+                    <canvas></canvas>
+                </div>
+            </div>
+            <div class="box quarter">
+                <p>Title</p>
+                <div class="chart-container">
+                    <canvas></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box full">
+                <p>Title</p>
+                <div class="chart-container">
+                    <canvas id="myChart6"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
