@@ -70,7 +70,7 @@ body{
 
 }
 
-@media only screen and (min-width:376px) and (max-width: 769px){
+@media only screen and (min-width:376px) and (max-width: 768px){
     .div-container{
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -82,8 +82,8 @@ body{
             }
 
             .pie-chart-water{
-              margin-top: 10%;
-              margin-bottom: 10%;
+              margin-top:
+              margin-bottom:
             }
 
             .water-tekst{
@@ -92,18 +92,18 @@ body{
 
 
             .brandstof-tekst{
-              margin-top: -20%
+              margin-top:
             }
 
             .pro-bar-snelheid{
-              margin-top: 20%;
-              margin-bottom: -10%
+              margin-top:
+              margin-bottom:
             }
 
 
     }
 
-    @media only screen and (min-width:770px) and (max-width: 1279px){
+    @media only screen and (min-width:769px) and (max-width: 1279px){
         .div-container{
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows: 1fr 1fr 1fr 1fr;

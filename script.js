@@ -106,16 +106,16 @@ var chart4 = new Chart(myChart4, {
 var myChart5 = document.getElementById('myChart5').getContext('2d');
 var chart5 = new Chart(myChart5, {
     // The type of chart we want to create
-    type: 'line',
+    type: 'bar',
 
     // The data for our dataset
     data: {
         labels: ['0','5','10','15','20','25','30','35','40','45','50',],
         datasets: [{
             label: 'My First dataset',
-            backgroundColor: '#051C2B',
+            backgroundColor: '#00538C',
             borderColor: 'white',
-            data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 5,]
+            data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,]
         }]
     },
 
