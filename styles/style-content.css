@@ -42,4 +42,9 @@ canvas {
 .btn{
   font-family: D-DIN, sans-serif;
   font-size: 100px;
+  background-color: #051C2B;
+  border-color: #051C2B;
+  border-style: solid;
+  color: white;
+  border-radius: 10px;
 }

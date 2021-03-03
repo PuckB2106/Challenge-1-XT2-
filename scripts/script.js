@@ -156,30 +156,23 @@ var chart5 = new Chart(myChart5, {
 
 var myChart7 = document.getElementById("myChart7");
 var chart7 = new Chart(myChart7, {
-    type: 'doughnut',
+    type: 'line',
     data: {
-        labels: ['0-10^3km/u','10-30^3km/u','30-60^3km/u'],
+        labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,],
         datasets: [{
-            label: '# of Votes',
-            data: [100, 0, 0,],
-            backgroundColor: [
-                'rgba(124,252,0,1)',
-                'rgba(255,255,0,1)',
-                'rgba(255, 99, 132, 1)',
-
-            ],
-            borderColor: [
-              'rgba(124,252,0,1)',
-
-            ],
+            label: [],
+            data: ['10', '21', '18', '15', '20', '25', '30', '7', '20', '10', '15',],
+            backgroundColor: ['#051C2B'],
+            borderColor: '#3f37c9',
             borderWidth: 1
         }]
     },
     options: {
+        legend: {
+          display: false,
+        },
         responsive: true,
         maintainAspectRatio: false,
-        rotation: 1 * Math.PI,
-        circumference: 1 * Math.PI
     }
 });
 
