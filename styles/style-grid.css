@@ -63,7 +63,7 @@
         width: 1140px;
     }
     .box.quarter {
-        flex-basis: 25%;
+        flex-basis: 50%;
     }
 }
 @media (min-width: 1400px) {
