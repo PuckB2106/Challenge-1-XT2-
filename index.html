@@ -57,7 +57,7 @@
         </div>
         <div class="row">
             <div class="box quarter">
-                <p>ideeeeeeeeeeee</p>
+                <p>Acceleratie</p>
                 <div class="chart-container">
                     <canvas id="myChart8"></canvas>
                 </div>
@@ -65,20 +65,29 @@
             <div class="box quarter">
                 <p>Snelheid</p>
                 <div class="chart-container">
-                    <canvas></canvas>
+                    <canvas id="myChart7"></canvas>
                 </div>
             </div>
           </div>
+
         <div class="row">
             <div class="box full">
-                <p>Title</p>
+                <p>Snelheid</p>
                 <div class="chart-container">
-                    <canvas id="myChart6"></canvas>
+                  <div class="container-nummer">
+                    <h1></h1>
+                    <h1 id="count">10000</h1>
+                    <button class="btn btn-outline-dark" onclick="changeCount(200)">+</button>
+                    <button class="btn btn-outline-dark" onclick="changeCount(-200)">-</button>
+                  </div>
+
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
-</div>
+
 <script src="scripts/script.js"></script>
 </body>
 </html>

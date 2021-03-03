@@ -130,29 +130,29 @@ var chart5 = new Chart(myChart5, {
 
 });
 
-var myChart6 = document.getElementById('myChart6').getContext('2d');
-var chart6 = new Chart(myChart6, {
-    // The type of chart we want to create
-    type: 'pie',
-
-    // The data for our dataset
-    data: {
-        labels: [],
-        datasets: [{
-            label: 'My First dataset',
-            backgroundColor: '#00365A',
-            borderColor: 'white',
-            data: [75, 100,]
-        }]
-    },
-
-    // Configuration options go here
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-    }
-
-});
+// var myChart6 = document.getElementById('myChart6').getContext('2d');
+// var chart6 = new Chart(myChart6, {
+//     // The type of chart we want to create
+//     type: 'pie',
+//
+//     // The data for our dataset
+//     data: {
+//         labels: [],
+//         datasets: [{
+//             label: 'My First dataset',
+//             backgroundColor: '#00365A',
+//             borderColor: 'white',
+//             data: [75, 100,]
+//         }]
+//     },
+//
+//     // Configuration options go here
+//     options: {
+//         responsive: true,
+//         maintainAspectRatio: false,
+//     }
+//
+// });
 
 var myChart7 = document.getElementById("myChart7");
 var chart7 = new Chart(myChart7, {
@@ -190,33 +190,9 @@ var chart8 = new Chart(myChart8, {
 
     // The data for our dataset
     data: {
-        labels: [],
-        datasets: [{
-            label: 'My First dataset',
-            backgroundColor: '#00365A',
-            borderColor: 'white',
-            data: [75, 100,]
-        }]
-    },
-
-    // Configuration options go here
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-    }
-
-});
-
-var myChart9 = document.getElementById('myChart9').getContext('2d');
-var chart9 = new Chart(myChart9, {
-    // The type of chart we want to create
-    type: 'line',
-
-    // The data for our dataset
-    data: {
         labels: ['0', '10', '20', '30', '40', '50'],
         datasets: [{
-            backgroundColor:'rgb(247, 37, 133,0.4)' ,
+            backgroundColor:'#f72585' ,
             borderColor: 'white',
             data: ['20','80','60','100','120',]
         }]
@@ -232,3 +208,10 @@ var chart9 = new Chart(myChart9, {
     }
 
 });
+
+var count = 10000;
+
+function changeCount(number){
+  count += number;
+  document.getElementById("count").innerHTML = count;
+}

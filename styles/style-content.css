@@ -33,3 +33,13 @@ canvas {
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+.container-nummer{
+  font-family: D-DIN, sans-serif;
+  font-size: 100px;
+}
+
+.btn{
+  font-family: D-DIN, sans-serif;
+  font-size: 100px;
+}
