@@ -1,3 +1,5 @@
+Chart.defaults.global.defaultFontColor = 'white';
+
 var myChart1 = document.getElementById('myChart1').getContext('2d');
 var chart1 = new Chart(myChart1, {
     // The type of chart we want to create
@@ -110,27 +112,21 @@ var chart4 = new Chart(myChart4, {
 var myChart5 = document.getElementById('myChart5').getContext('2d');
 var chart5 = new Chart(myChart5, {
     // The type of chart we want to create
-    type: 'line',
+    type: 'pie',
 
     // The data for our dataset
     data: {
-        labels: ['0', '5', '10', '15', '20', '25', '30', '35', '40', '45', '50',],
+        labels: ['Co2','LH2','O2',],
         datasets: [{
-            label: 'My First dataset',
-            backgroundColor: '#051C2B',
-            borderColor: 'white',
-            data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 5,]
+            label: [],
+            backgroundColor: ['#f72585','#3f37c9','#4895ef','#4cc9f0',],
+            borderColor: ['white',],
+            data: ['30','36','34',]
         }]
     },
 
     // Configuration options go here
-    options: {
-        responsive: true,
-        legend: {
-            display: false,
-        },
-        maintainAspectRatio: false,
-    }
+    options: {responsive:true,}
 
 });
 
@@ -154,6 +150,85 @@ var chart6 = new Chart(myChart6, {
     options: {
         responsive: true,
         maintainAspectRatio: false,
+    }
+
+});
+
+var myChart7 = document.getElementById("myChart7");
+var chart7 = new Chart(myChart7, {
+    type: 'doughnut',
+    data: {
+        labels: ['0-10^3km/u','10-30^3km/u','30-60^3km/u'],
+        datasets: [{
+            label: '# of Votes',
+            data: [100, 0, 0,],
+            backgroundColor: [
+                'rgba(124,252,0,1)',
+                'rgba(255,255,0,1)',
+                'rgba(255, 99, 132, 1)',
+
+            ],
+            borderColor: [
+              'rgba(124,252,0,1)',
+
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        rotation: 1 * Math.PI,
+        circumference: 1 * Math.PI
+    }
+});
+
+var myChart8 = document.getElementById('myChart8').getContext('2d');
+var chart8 = new Chart(myChart8, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: [],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: '#00365A',
+            borderColor: 'white',
+            data: [75, 100,]
+        }]
+    },
+
+    // Configuration options go here
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+    }
+
+});
+
+var myChart9 = document.getElementById('myChart9').getContext('2d');
+var chart9 = new Chart(myChart9, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['0', '10', '20', '30', '40', '50'],
+        datasets: [{
+            backgroundColor:'rgb(247, 37, 133,0.4)' ,
+            borderColor: 'white',
+            data: ['20','80','60','100','120',]
+        }]
+    },
+
+    // Configuration options go here
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+            display: false
+        },
     }
 
 });
