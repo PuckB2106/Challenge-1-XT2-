@@ -21,6 +21,14 @@ canvas {
     max-width: 100%;
 }
 
+#box-third1{
+  padding: 8px;
+}
+
+#box-third2{
+  padding: 23px;
+}
+
 .logo {
     width: 200px;
     display: block;

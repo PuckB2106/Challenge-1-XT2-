@@ -57,6 +57,11 @@
     .box.third {
         flex-basis: 33.33%;
     }
+
+    #uitstoot-tekst{
+      padding: 3px;
+    }
+
 }
 @media (min-width: 1200px) {
     .container{
